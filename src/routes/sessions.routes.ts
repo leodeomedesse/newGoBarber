@@ -20,7 +20,6 @@ sessionsRouter.post('/', async (request, response) => {
   } catch (err) {
     return response.status(401).json({ error: err.message });
   }
-
 });
 
 export default sessionsRouter;
